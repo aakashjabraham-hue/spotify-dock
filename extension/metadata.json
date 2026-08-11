@@ -1,0 +1,8 @@
+{
+  "uuid": "spotify-dock@aakashjabraham-hue",
+  "name": "Spotify Dock",
+  "description": "Spotify playback controller in the top bar. The icon appears only while something is playing on your account (any device); click for album art and skip/play-pause controls.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1,
+  "url": "https://github.com/aakashjabraham-hue/spotify-dock"
+}

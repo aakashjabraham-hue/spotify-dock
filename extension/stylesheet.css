@@ -1,0 +1,55 @@
+/* Spotify Dock — styles */
+
+.sd-panel-icon {
+}
+
+.sd-content {
+    spacing: 14px;
+    padding: 4px 10px 4px 4px;
+}
+
+.sd-art {
+    border-radius: 8px;
+}
+
+.sd-info {
+    spacing: 2px;
+    min-width: 180px;
+    padding-top: 2px;
+}
+
+.sd-track {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sd-artist {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.sd-btns {
+    spacing: 6px;
+    padding-top: 6px;
+}
+
+.sd-btn {
+    padding: 4px 8px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.sd-btn:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+.sd-btn:disabled {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.sd-note {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.55);
+    padding-top: 4px;
+}
