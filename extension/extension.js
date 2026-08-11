@@ -43,7 +43,7 @@ export default class SpotifyDockExtension extends Extension {
 
         Main.panel.addToStatusArea('spotify-dock', this._button, 0, 'right');
 
-        this._pollId = GLib.timeout_add_seconds(POLL_SECONDS, () => {
+        this._pollId = GLib.timeout_add_seconds(GLib.PRIORITY_DEFAULT, POLL_SECONDS, () => {
             this._poll();
             return GLib.SOURCE_CONTINUE;
         });
